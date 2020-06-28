@@ -66,7 +66,7 @@ const TabNavigator = () => {
 };
 
 const Routes = () => {
-  return <>{true ? <TabNavigator /> : <SignIn />}</>;
+  return <>{false ? <TabNavigator /> : <SignIn />}</>;
 };
 
 export default Routes;

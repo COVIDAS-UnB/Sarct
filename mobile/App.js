@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { AppLoading } from 'expo';
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'react-native';
 import React, { useState } from 'react';
 
 import Routes from '~/routes';
@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <StatusBar barStyle="lighten-content" backgroundColor="#8E2DE2" />
+      <StatusBar barStyle="lighten-content" backgroundColor="#0279db" />
       <Routes />
     </NavigationContainer>
   );
