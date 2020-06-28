@@ -3,12 +3,12 @@ import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const Repo = () => {
+const Scanner = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Repo</Text>
+      <Text>Scanner</Text>
     </View>
   );
 };
 
-export default Repo;
+export default Scanner;
