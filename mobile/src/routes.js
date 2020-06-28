@@ -7,7 +7,7 @@ import SignIn from './pages/SignIn';
 import About from '~/pages/About';
 import List from '~/pages/List';
 import Map from '~/pages/Map';
-import Repo from '~/pages/Repo';
+import Scanner from '~/pages/Scanner';
 
 const Tab = createBottomTabNavigator();
 
@@ -17,6 +17,9 @@ const TabNavigator = () => {
       tabBarOptions={{
         activeTintColor: '#0279DB',
         inactiveTintColor: '#999',
+        labelStyle: {
+          fontFamily: 'Comfortaa',
+        },
       }}>
       <Tab.Screen
         name="List"
@@ -46,7 +49,7 @@ const TabNavigator = () => {
             <FontAwesome5 name="box-open" size={20} color={color} />
           ),
         }}
-        component={Repo}
+        component={Scanner}
       />
       <Tab.Screen
         name="About"
