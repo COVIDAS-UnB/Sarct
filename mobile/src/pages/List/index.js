@@ -1,10 +1,14 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const signIn = () => {
-  return <View />;
+const List = () => {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>List</Text>
+    </View>
+  );
 };
 
-export default signIn;
+export default List;

@@ -3,12 +3,12 @@ import { View, Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const About = () => {
+const SignIn = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>About</Text>
+      <Text>SignIn</Text>
     </View>
   );
 };
 
-export default About;
+export default SignIn;
