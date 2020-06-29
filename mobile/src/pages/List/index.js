@@ -38,7 +38,7 @@ export default function List() {
           <FilterOptions>
             <Picker
               selectedValue={selectedValue}
-              style={{ height: 22, width: 150 }}
+              style={{ height: 28, width: 150 }}
               onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
             >
               <Picker.Item label="Todos" value="all" />
