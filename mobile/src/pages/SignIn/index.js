@@ -17,7 +17,7 @@ import {
 const SignIn = () => {
   const formRef = useRef(null);
 
-  async function handleSubmit({ username, password }) {}
+  async function handleSubmit({ email, password }) { }
 
   return (
     <Container>
@@ -29,16 +29,16 @@ const SignIn = () => {
         <SubTitle>Faça seu login</SubTitle>
         <Form ref={formRef} onSubmit={handleSubmit}>
           <IconInput>
-            <Entypo name="email" size={24} color="#0279db" />
+            <Entypo name="email" size={20} color="#0279db" />
           </IconInput>
           <StyledInput
-            name="username"
+            name="email"
             autoCorrect={false}
             autoCapitalize="none"
             placeholder="Digite seu email"
           />
           <IconInput>
-            <Ionicons name="ios-key" size={24} color="#0279db" />
+            <Ionicons name="ios-key" size={20} color="#0279db" />
           </IconInput>
           <StyledInput
             name="password"

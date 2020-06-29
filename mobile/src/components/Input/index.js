@@ -37,7 +37,7 @@ function Input({ name, ...rest }) {
         ref={inputRef}
         keyboardAppearance="dark"
         defaultValue={defaultValue}
-        placeholderTextColor={lighten(0.25, '#4a00e0')}
+        placeholderTextColor={lighten(0.25, '#0279DB')}
         onChangeText={(value) => {
           if (inputRef.current) {
             inputRef.current.value = value;
