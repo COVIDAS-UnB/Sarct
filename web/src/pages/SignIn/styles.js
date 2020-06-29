@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { darken } from 'polished';
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -15,8 +15,8 @@ export const Container = styled.div`
 
   img {
     margin-top: 20px;
-    width: 400px;
-    height: 250px;
+    width: auto;
+    height: 200px;
     border-radius: 4px;
   }
 
