@@ -12,10 +12,38 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: "module",
   },
-  plugins: ["react"],
+  plugins: [
+    'react',
+    'prettier',
+    'eslint-plugin-import-helpers',
+    'react-hooks',
+    'import',
+  ],
   rules: {
-    "prettier/prettier": "error",
-    "react/jsx-filename-extension": ["warn", { extension: [".jsx", ".js"] }],
-    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": 'off',
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': [
+      'warn',
+      { extensions: ['.jsx', '.js'] }
+    ],
+    'import/prefer-default-export': 'off',
+    'import-helpers/order-imports': [
+      'warn',
+      {
+        newlinesBetween: 'always',
+        groups: [
+          'module',
+          '/^@shared/',
+          ['parent', 'sibling', 'index', '/^~/'],
+        ],
+        alphabetize: { order: 'asc', ignoreCase: true },
+      },
+    ],
+    "react/state-in-constructor": ['off', 'always'],
+    "react/static-property-placement": 'off',
+    "no-param-reassign": 'off',
+    "no-console": ["error", { allow: ["tron"] }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };

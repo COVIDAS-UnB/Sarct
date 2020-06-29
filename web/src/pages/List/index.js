@@ -20,7 +20,7 @@ function List() {
             <strong>No lado esquerdo do Anfiteatro 16</strong>
           </div>
 
-          <button>Ver no mapa</button>
+          <button type="button">Confirmar Reabastecimento</button>
         </li>
 
         <li>
@@ -36,7 +36,7 @@ function List() {
             <strong>No lado esquerdo do Anfiteatro 16</strong>
           </div>
 
-          <button>Ver no mapa</button>
+          <button type="button">Confirmar Reabastecimento</button>
         </li>
 
         <li>
@@ -52,14 +52,14 @@ function List() {
             <strong>No lado esquerdo do Anfiteatro 16</strong>
           </div>
 
-          <button>Ver no mapa</button>
+          <button type="button">Confirmar Reabastecimento</button>
         </li>
 
         <li>
           <div>
             <h4>B12</h4>
             <p>
-              Estado atual: <span>CHEIO</span>
+              Estado atual: <span style={{ color: '#EA3E3D' }}>VAZIO</span>
             </p>
           </div>
 
@@ -68,37 +68,7 @@ function List() {
             <strong>No lado esquerdo do Anfiteatro 16</strong>
           </div>
 
-          <button>Ver no mapa</button>
-        </li>
-
-        <li>
-          <div>
-            <h4>B12</h4>
-            <p>
-              Estado atual: <span>CHEIO</span>
-            </p>
-          </div>
-
-          <div>
-            <p>Localização: </p>
-            <strong>No lado esquerdo do Anfiteatro 16</strong>
-          </div>
-          <button>Ver no mapa</button>
-        </li>
-
-        <li>
-          <div>
-            <h4>B12</h4>
-            <p>
-              Estado atual: <span>CHEIO</span>
-            </p>
-          </div>
-
-          <div>
-            <p>Localização: </p>
-            <strong>No lado esquerdo do Anfiteatro 16</strong>
-          </div>
-          <button>Ver no mapa</button>
+          <button type="button">Confirmar Reabastecimento</button>
         </li>
       </DispenserList>
     </>
