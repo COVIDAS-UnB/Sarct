@@ -1,18 +1,16 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FontAwesome5 } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 
-import SignIn from './pages/SignIn';
 import About from '~/pages/About';
+import DispenserDetails from '~/pages/DispenserDetails';
 import List from '~/pages/List';
 import Map from '~/pages/Map';
 import Scanner from '~/pages/Scanner';
-import DispenserDetails from '~/pages/DispenserDetails';
 
 const Tab = createBottomTabNavigator();
 
-const TabNavigator = () => {
+const AppNavigator = () => {
   return (
     <Tab.Navigator
       tabBarOptions={{
@@ -66,8 +64,4 @@ const TabNavigator = () => {
   );
 };
 
-const Routes = () => {
-  return <>{true ? <TabNavigator /> : <SignIn />}</>;
-};
-
-export default Routes;
+export default AppNavigator;

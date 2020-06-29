@@ -1,7 +1,8 @@
 import { Entypo, Ionicons } from '@expo/vector-icons';
 import { Form } from '@unform/core';
 import React, { useRef } from 'react';
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity, ActivityIndicator } from 'react-native';
+import * as Yup from 'yup';
 
 import {
   Container,
@@ -9,15 +10,44 @@ import {
   Logo,
   Login,
   SubTitle,
-  Button,
+  ButtonText,
   StyledInput,
   IconInput,
+  Button,
 } from './styles';
+import { useAuth } from '~/contexts/auth';
 
 const SignIn = () => {
   const formRef = useRef(null);
+  const { signIn, loading } = useAuth();
 
-  async function handleSubmit({ email, password }) { }
+  async function handleSubmit(data, { reset }) {
+    formRef.current.setErrors({});
+    try {
+      const schema = Yup.object().shape({
+        email: Yup.string()
+          .email('Digite um email válido')
+          .required('O email é obrigatório'),
+        password: Yup.string().min(6).required('A senha é obrigatória'),
+      });
+
+      await schema.validate(data, {
+        abortEarly: false,
+      });
+
+      signIn(data, reset);
+    } catch (err) {
+      const validationErrors = {};
+
+      if (err instanceof Yup.ValidationError) {
+        err.inner.forEach((error) => {
+          validationErrors[error.path] = error.message;
+        });
+
+        formRef.current.setErrors(validationErrors);
+      }
+    }
+  }
 
   return (
     <Container>
@@ -35,6 +65,7 @@ const SignIn = () => {
             name="email"
             autoCorrect={false}
             autoCapitalize="none"
+            keyboardType="email-address"
             placeholder="Digite seu email"
           />
           <IconInput>
@@ -47,9 +78,13 @@ const SignIn = () => {
             placeholder="Senha"
           />
         </Form>
-        <TouchableOpacity onPress={() => formRef.current.submitForm()}>
-          <Button>Entrar</Button>
-        </TouchableOpacity>
+        <Button onPress={() => formRef.current.submitForm()}>
+          {loading ? (
+            <ActivityIndicator size={26} color="#f2f5ff" />
+          ) : (
+              <ButtonText>Entrar</ButtonText>
+            )}
+        </Button>
       </Login>
     </Container>
   );
