@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { AppLoading } from 'expo';
-import { StatusBar } from 'react-native';
 import React, { useState } from 'react';
+import { StatusBar } from 'react-native';
 
 import Routes from '~/routes';
 import loadFont from '~/util/loadFont';
