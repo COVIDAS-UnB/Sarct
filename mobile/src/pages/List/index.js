@@ -39,10 +39,9 @@ export default function List() {
           <FilterOptions>
             <Picker
               selectedValue={selectedValue}
-              style={{ height: 22 }}
-              onValueChange={(itemValue, itemIndex) =>
-                setSelectedValue(itemValue)
-              }>
+              style={{ height: 28 }}
+              onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
+            >
               <Picker.Item label="Todos" value="all" />
               <Picker.Item label="ICC Sul" value="iccs" />
               <Picker.Item label="ICC Centro" value="iccc" />

@@ -17,6 +17,7 @@ export const Title = styled.Text`
   margin: 30px 40px 10px auto;
   font-size: 30px;
   color: #0279db;
+  font-family: ComfortaaBold;
 `;
 
 export const Text = styled.Text`
@@ -24,6 +25,7 @@ export const Text = styled.Text`
   margin: 10px 30px;
   font-size: 16px;
   text-align: justify;
+  font-family: ComfortaaLight;
 `;
 
 export const DispenserItem = styled.TouchableOpacity`
@@ -58,6 +60,7 @@ export const DispenserLocation = styled.Text`
   font-family: Comfortaa;
   font-size: 14px;
   margin: 0px auto 0 0;
+  font-family: Comfortaa;
 `;
 
 export const DispenserRight = styled.View`
@@ -68,6 +71,7 @@ export const DispenserStatus = styled.Text`
   font-family: Comfortaa;
   font-size: 14px;
   margin: 0px auto 5px 0;
+  font-family: Comfortaa;
 `;
 
 export const DispenserEmpty = styled.Text`
@@ -100,6 +104,7 @@ export const FilterText = styled.Text`
   font-family: Comfortaa;
   font-size: 16px;
   margin: 0px auto 0 0;
+  font-family: Comfortaa;
 `;
 
 export const FilterOptions = styled.View`

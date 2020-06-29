@@ -8,6 +8,7 @@ import About from '~/pages/About';
 import List from '~/pages/List';
 import Map from '~/pages/Map';
 import Scanner from '~/pages/Scanner';
+import DispenserDetails from '~/pages/DispenserDetails';
 
 const Tab = createBottomTabNavigator();
 
