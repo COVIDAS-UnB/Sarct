@@ -19,7 +19,7 @@ export const Logo = styled.Image`
   margin-top: 15px;
   width: 200px;
   align-self: center;
-  height: 160px;
+  height: 194px;
 `;
 
 export const Login = styled.KeyboardAvoidingView`

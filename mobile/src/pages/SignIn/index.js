@@ -15,6 +15,7 @@ import {
   IconInput,
   Button,
 } from './styles';
+import logo from '~/assets/logo.png';
 import { useAuth } from '~/contexts/auth';
 
 const SignIn = () => {
@@ -52,9 +53,7 @@ const SignIn = () => {
   return (
     <Container>
       <Title>AquiGel</Title>
-      <Logo
-        source={{ uri: 'https://i.ytimg.com/vi/sqa2Sfsqsow/maxresdefault.jpg' }}
-      />
+      <Logo source={logo} />
       <Login>
         <SubTitle>Faça seu login</SubTitle>
         <Form ref={formRef} onSubmit={handleSubmit}>
