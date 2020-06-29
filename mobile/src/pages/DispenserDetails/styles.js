@@ -7,37 +7,35 @@ export const Container = styled.View`
   width: 100%;
 `;
 
-export const ListContainer = styled.ScrollView`
+export const DispenserContainer = styled.ScrollView`
   flex: 1;
   width: 100%;
+  padding: 100px 20px 0;
+`;
+
+export const CoverImage = styled.Image`
+  width: 100%;
+  height: 260px;
+  border: 6px solid #0279db;
+  border-radius: 50px;
+  background: #ffffff;
+  margin-bottom: 20px;
 `;
 
 export const Title = styled.Text`
-  margin: 20px 20px 10px auto;
   font-size: 30px;
-  color: #0279db;
   font-family: ComfortaaBold;
-`;
-
-export const Text = styled.Text`
-  margin: 10px 22px;
-  font-size: 16px;
-  text-align: justify;
-  font-family: ComfortaaLight;
+  text-align: center;
 `;
 
 export const DispenserItem = styled.TouchableOpacity`
   padding: 15px;
-  margin: 8px 20px;
-  border-radius: 4px;
+  margin-top: 20px;
+  border-radius: 20px;
   background: #ffffff;
   border: 1px solid;
   border-color: #cccccc;
 `;
-
-export const DispenserList = styled.FlatList.attrs({
-  showsVerticalScrollIndicator: false,
-})``;
 
 export const DispenserDetails = styled.View`
   flex-direction: row;
@@ -45,12 +43,6 @@ export const DispenserDetails = styled.View`
 
 export const DispenserLeft = styled.View`
   padding-right: 16px;
-`;
-
-export const DispenserName = styled.Text`
-  font-size: 14px;
-  margin: 0px auto 5px 0;
-  font-family: ComfortaaBold;
 `;
 
 export const DispenserLocation = styled.Text`
@@ -87,21 +79,3 @@ export const DispenserLocationDetails = styled.Text`
   font-family: ComfortaaBold;
 `;
 
-export const FilterDetails = styled.View`
-  padding-left: 10px;
-  margin: 15px 20px;
-  flex-direction: row;
-`;
-
-export const FilterText = styled.Text`
-  font-size: 16px;
-  margin: 0px auto 0 0;
-  font-family: Comfortaa;
-`;
-
-export const FilterOptions = styled.View`
-  flex: 1;
-  margin: 0 120px 0 10px;
-  border-bottom-width: 1px;
-  border-color: #000000;
-`;
