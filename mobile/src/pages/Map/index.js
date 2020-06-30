@@ -7,7 +7,7 @@ import {
 } from 'react-native-gesture-handler';
 
 import { Container } from './styles';
-import terreoFT from '~/assets/terreoFT.png';
+import terreoFT from '~/assets/map.png';
 
 const Map = () => {
   const panRef = useRef();
