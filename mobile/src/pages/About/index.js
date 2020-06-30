@@ -10,7 +10,7 @@ const About = () => {
         <Text>
           {' '}
           O AquiGel é uma solução voltada para auxiliar a reposição de alcool em
-          gel nos{' '}
+          gel nos dispensers{' '}
         </Text>
       </Inform>
 
@@ -28,15 +28,6 @@ const About = () => {
 
       <Inform>
         <Title>Quem somos?</Title>
-        <Text>
-          {' '}
-          Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando
-          Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando
-          Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando
-          Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando
-          Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando Sarrando
-          Sarrando Sarrando Sarrando Sarrando Sarrando{' '}
-        </Text>
       </Inform>
 
       <Developers>
