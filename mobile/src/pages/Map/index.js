@@ -76,8 +76,8 @@ const Map = () => {
             onHandlerStateChange={onPinchHandlerStateChange}>
             <Animated.Image
               style={{
-                width: 2000,
-                height: 1127.04,
+                width: 3000,
+                height: 2640,
                 transform: [
                   { perspective: 200 },
                   { scale },

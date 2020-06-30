@@ -6460,8 +6460,6 @@ yargs@^15.1.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.1"
-<<<<<<< HEAD
-=======
 
 yup@^0.29.1:
   version "0.29.1"
@@ -6475,4 +6473,3 @@ yup@^0.29.1:
     property-expr "^2.0.2"
     synchronous-promise "^2.0.10"
     toposort "^2.0.2"
->>>>>>> master
