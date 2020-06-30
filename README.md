@@ -12,13 +12,13 @@
 </p>
 
 <div align="center">
-  <img width=250 height=500 src="mobile/assets/Login.jpeg" alt="sign"/>
+  <img height=500 src="mobile/assets/Login.jpeg" alt="sign"/>
 </div>
 
 <div align="center">
 <div>
-<img  width=250 height=500 src="mobile/assets/List.jpeg" alt="list"/>
-<img  width=250 height=500 src="mobile/assets/confirm.png" alt="confirm"/>
+<img height=500 src="mobile/assets/List.jpeg" alt="list"/>
+<img height=500 src="mobile/assets/confirm.png" alt="confirm"/>
 </div>
 
 O "AquiGel" é um projeto idealizado e produzido pela equipe Sarct durante a maratona de inovação Covidas UnB.
