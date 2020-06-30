@@ -167,3 +167,7 @@ O site foi projetado para os postos de distribuição de refil e para a central 
 ## Modelo do Projeto
 
 **[Link para o modelo](/docs/Modelo_do_Projeto.pdf)**
+
+## Pitch
+
+**[Link para o pitch](https://youtu.be/7mzZ77IM-vg)**
