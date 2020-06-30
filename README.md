@@ -163,3 +163,7 @@ Nosso projeto é dividido em 3 partes: Site, aplicativo mobile e o back end.
 O aplicativo, foi feito para os voluntários e para os terceirizados que consigam utilizá-lo tornando a atualização de informações mais dinâmica. Nele já desenvolvemos a leitura do QR code e duas formas de visualização dos dispensers disponíveis no campus, uma através de uma lista contendo o estado do dispenser (cheio ou vazio) e um ponto de referência e a outra será um mapa da UnB, com as mesmas informações da lista porém com o ponto exato onde o dispenser está.
 
 O site foi projetado para os postos de distribuição de refil e para a central de controle. Apesar de não estar integrado com o backend ele já possui as páginas referentes ao login, lista com todos os dispensers disponíveis e também de criar um novo ponto para um novo dispenser.
+
+## Modelo do Projeto
+
+**[Link para o modelo](/docs/Modelo_do_Projeto.pdf)**
