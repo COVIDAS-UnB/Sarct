@@ -36,7 +36,7 @@ Utilizando das tecnologias digitais, desenvolvemos o AquiGel, um sistema de gere
 Ao lado de cada dispenser será instalado uma plaquinha com um QR Code. Quando uma pessoa tentar passar o álcool gel, caso este esteja vazio, basta apontar o câmera do celular para o QR Code e pronto, a informação de que o dispenser está vazio será enviada para o nosso sistema.
 
 <div align="center">
-  <img  height=400 src="mobile/assets/Plaquinha.png" alt="sign"/>
+  <img  height=300 src="mobile/assets/Plaquinha.png" alt="sign"/>
 </div>
 
 O AquiGel é um aplicativo híbrido, ou seja, possui uma versão Web e uma Mobile. A versão Web será uma central e estará à disposição da equipe de limpeza, os responsáveis pelo reabastecimento. Nesta aplicação, será possível alterar o status de cada um dos dispensers para cheio conforme um auxiliar de limpeza faça a reposição.
