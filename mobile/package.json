@@ -14,7 +14,7 @@
     "@react-navigation/native": "^5.6.1",
     "@unform/core": "2.1.0",
     "@unform/mobile": "2.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "expo": "~38.0.1",
     "expo-barcode-scanner": "~8.2.1",
     "expo-font": "~8.2.1",
